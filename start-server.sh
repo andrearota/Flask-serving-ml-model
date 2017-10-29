@@ -1,2 +1,2 @@
 #|/bin/sh
-FLASK_APP=app.py flask run
+python app/server.py
