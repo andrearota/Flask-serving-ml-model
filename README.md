@@ -2,7 +2,7 @@
 
 This repository contains a simple implementation of a Flask app serving a machine learning model as JSON REST API.
 
-The deployment uses [CherryPy](http://cherrypy.org/]) as WSGI server implementation. The project contains also a Dockerfile to create a containerized version of the application.
+The deployment uses [CherryPy](http://cherrypy.org/]) as WSGI server implementation. The project contains also a Dockerfile to create a containerized version of the application. The image is based on a Debian:latest-slim base image and once built, is around 120 MB (thanks to [Michele Bologna](https://github.com/mbologna) for the suggestions).
 
 ## Running
 
